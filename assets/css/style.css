@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='rgba(9%2c 6%2c 33%2c 1)'%3e%3c/rect%3e%3cpath d='M11 250L261 0L570 0L320 250z' fill='url(%23SvgjsLinearGradient1007)'%3e%3c/path%3e%3cpath d='M264.6 250L514.6 0L606.1 0L356.1 250z' fill='url(%23SvgjsLinearGradient1007)'%3e%3c/path%3e%3cpath d='M501.20000000000005 250L751.2 0L971.7 0L721.7 250z' fill='url(%23SvgjsLinearGradient1007)'%3e%3c/path%3e%3cpath d='M743.8000000000001 250L993.8000000000001 0L1094.3000000000002 0L844.3000000000001 250z' fill='url(%23SvgjsLinearGradient1007)'%3e%3c/path%3e%3cpath d='M1423 250L1173 0L916.5 0L1166.5 250z' fill='url(%23SvgjsLinearGradient1008)'%3e%3c/path%3e%3cpath d='M1166.4 250L916.4000000000001 0L775.4000000000001 0L1025.4 250z' fill='url(%23SvgjsLinearGradient1008)'%3e%3c/path%3e%3cpath d='M917.8 250L667.8 0L547.8 0L797.8 250z' fill='url(%23SvgjsLinearGradient1008)'%3e%3c/path%3e%3cpath d='M726.1999999999999 250L476.19999999999993 0L326.19999999999993 0L576.1999999999999 250z' fill='url(%23SvgjsLinearGradient1008)'%3e%3c/path%3e%3cpath d='M1262.5924193189915 250L1440 72.59241931899155L1440 250z' fill='url(%23SvgjsLinearGradient1007)'%3e%3c/path%3e%3cpath d='M0 250L177.40758068100845 250L 0 72.59241931899155z' fill='url(%23SvgjsLinearGradient1008)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1007'%3e%3cstop stop-color='rgba(97%2c 15%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(97%2c 15%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1008'%3e%3cstop stop-color='rgba(97%2c 15%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(97%2c 15%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+color: aliceblue;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+font-family: 'Montserrat', sans-serif;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: #5d00c7a2  !important;
+}
+
+
+
+i.fa-brands.fa-whatsapp.fa-xl,
+i.fa-solid.fa-envelope.fa-xl,
+i.fa-brands.fa-instagram.fa-xl,
+i.fa-solid.fa-user-lock.fa-xl,
+i.fa-solid.fa-user.fa-xl {
+    color: #ffffff;
+}
+
+
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+
+section.about, #guardar, .progress.col-lg-6, .row.g-2.g-lg-3, img.d-block.w-100 {
+   margin-top: 5rem; 
+}
+
+p.proyecto.bordegris {
+    margin-top: 10rem;
+}
+
+#exampleModal,
+#educacionModal,
+#infoModal,
+#experienciaModal {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;   
+}
+
+a.nav-link.active:hover,
+li.list-group-item:hover  {
+
+    padding-top: 0,5rem;
+    background-color: #5900e9;
+    border-radius: 5px;
+}
+
+h5 {
+    margin: 0.35rem;
+}
+
+
+.bordegris {
+    border: 1px solid #8400ff;
+    background-color: #80808048;
+    border-radius: 15px;
+    padding: 1rem 1rem;
+}
+
+
+.rounded-circle.w-80 {
+    border: 0.2rem solid #8c00ff;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark { 
+    border-bottom: 0.25rem solid #8c00ff;
+}
+
+a.nav-link.active {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.progress.col-lg-6 {
+    padding: 0;
+}
+
+.img-fluid {
+    border-radius: 15px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
