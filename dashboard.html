@@ -128,46 +128,78 @@
     <div class="container text-center">
         <div class="row g-2 g-lg-3">
             <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#acercademiModal"><i
                         class="fa-solid fa-user fa-xl"></i></button></div>
             </div>
-            <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-image fa-xl"></i></button></div>
-            </div>
-            <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#infoModal"><i
-                        class="fa-solid fa-plus fa-xl"></i></button></div>
-            </div> 
+                    <div class="col">
+                        <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal"
+                                data-bs-target="#skillsModal"><i class="fa-solid fa-grip-lines fa-xl"></i></button></div>
+                    </div>
         </div>
+
+
         <div class="row mt-2 g-2 g-lg-3">
             <div class="col">
                 <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#educacionModal"><i
                         class="fa-solid fa-graduation-cap fa-xl"></i></button></div>
             </div>
             <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#proyectosModal"><i
                         class="fa-solid fa-folder fa-xl"></i></button></div>
             </div>
-            <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="fa-solid fa-grip-lines fa-xl"></i></button></div>
-            </div>
+
         </div>
+
+
         <div class="row mt-2 g-2 g-lg-3">
             <div class="col">
                 <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#experienciaModal"><i
                         class="fa-solid fa-briefcase fa-xl"></i></button></div>
             </div>
             <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#redsocialModal"><i
                         class="fa-solid fa-share-nodes fa-xl"></i></button></div>
-            </div>
-            <div class="col">
-                <div><button type="button" class="btn btn-secondary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                        class="fa-solid fa-comment fa-xl"></i></button></div>
             </div>
         </div>
 
+<!-- Modal Acerca de mí -->
+<div class="modal fade" id="acercademiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Acerca de mí</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">
+                    <h5>Foto de perfil</h5>
+                </label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">
+                    <h5>Nombre</h5>
+                </label>
+                <input class="form-control" type="text" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">
+                    <h5>Titulo</h5>
+                </label>
+                <input class="form-control" type="text" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">
+                    <h5>Descripción</h5>
+                </label>
+                <textarea class="form-control" type="text" id="formFile"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Modal educación -->
     <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -177,23 +209,14 @@
                     <h5 class="modal-title" id="exampleModalLabel">Educación</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="mb-3 row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="staticEmail">
-                        </div>
-                    </div>
-                    <div class="mb-3 row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword">
-                        </div>
-                    </div>
-                </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
                 </div>
+                <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><button type="button" class="btn btn-primary">Agregar</button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-primary">Eliminar</button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-primary">Modificar</button></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -253,6 +276,136 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal Proyectos-->
+    <div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Proyectos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Imagen proyecto</h5>
+                    </label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Titulo proyecto</h5>
+                    </label>
+                    <input class="form-control" type="text" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Descripción</h5>
+                    </label>
+                    <textarea class="form-control" type="text" id="formFile"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Redes Sociales -->
+    <div class="modal fade" id="redsocialModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Redes sociales</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Logo red social</h5>
+                    </label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Red social</h5>
+                    </label>
+                    <input class="form-control" type="text" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Link</h5>
+                    </label>
+                    <input class="form-control" type="text" id="formFile">
+                </div>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Agregar</button></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Eliminar</button></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Modificar</button></li>
+                </ul>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal referencias -->
+    <div class="modal fade" id="referenciasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Referencias</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Agregar</button></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Eliminar</button></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Modificar</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Skills -->
+    <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Skills</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Logo lenguaje</h5>
+                    </label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Lenguaje</h5>
+                    </label>
+                    <input class="form-control" type="text" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">
+                        <h5>Porcentaje</h5>
+                    </label>
+                    <input class="form-control" type="text" id="formFile">
+                </div>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Agregar</button></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Eliminar</button></li>
+                    <li class="list-group-item"><button type="button" class="btn btn-primary">Modificar</button></li>
+                </ul>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"

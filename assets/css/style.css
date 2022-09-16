@@ -9,7 +9,7 @@ flex-direction: column;
 min-height: 100vh;
 font-family: 'Montserrat', sans-serif;
 }
-
+            /* navbar */
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
     background-color: #5d00c7a2  !important;
 }
@@ -30,6 +30,31 @@ i.fa-solid.fa-user.fa-xl {
     --bs-list-group-border-color: transparent;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.nav-link.active:hover,
+li.list-group-item:hover {
+
+    padding-top: 0, 5rem;
+    background-color: #5900e9;
+    border-radius: 5px;
+}
+
+h5 {
+    margin: 0.35rem;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    border-bottom: 0.25rem solid #8c00ff;
+}
+
+a.nav-link.active {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
 
 section.about, #guardar, .progress.col-lg-6, .row.g-2.g-lg-3, img.d-block.w-100 {
    margin-top: 5rem; 
@@ -42,27 +67,14 @@ p.proyecto.bordegris {
 #exampleModal,
 #educacionModal,
 #infoModal,
-#experienciaModal {
+#experienciaModal,
+#acercademiModal,
+#proyectosModal,
+#redsocialModal,
+#skillsModal,
+#referenciasModal {
     color: #000000;
 }
-
-a {
-    text-decoration: none;
-    color: #ffffff;   
-}
-
-a.nav-link.active:hover,
-li.list-group-item:hover  {
-
-    padding-top: 0,5rem;
-    background-color: #5900e9;
-    border-radius: 5px;
-}
-
-h5 {
-    margin: 0.35rem;
-}
-
 
 .bordegris {
     border: 1px solid #8400ff;
@@ -76,14 +88,6 @@ h5 {
     border: 0.2rem solid #8c00ff;
 }
 
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark { 
-    border-bottom: 0.25rem solid #8c00ff;
-}
-
-a.nav-link.active {
-    margin-right: 2rem;
-    margin-left: 2rem;
-}
 
 .progress.col-lg-6 {
     padding: 0;
@@ -102,5 +106,12 @@ footer {
 
 h1 {
     font-family: 'Playfair Display', serif;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #7a00ff;
+    --bs-btn-border-color: #6302ff;
+    --bs-btn-hover-bg: #6200ff;
 }
 
